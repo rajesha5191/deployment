@@ -26,11 +26,11 @@ public class HomeController {
                 "<p>Welcome to our website! This is the About page. Feel free to explore our site, and don’t forget to visit the About Us page!</p>" +
                 "<a href='/deployment'>Home Page</a></body></html>";
     }
-    @GetMapping("/carrier")
-    public String carrier() {
-        return "<html><head><title>Carrier Page</title></head>" +
-                "<body><h1>This is Carrier page</h1>" +
-                "<p>Welcome to our website! This is the About page. Feel free to explore our site, and don’t forget to visit the About Us page!</p>" +
-                "<a href='/deployment'>Home Page</a></body></html>";
-    }
+//    @GetMapping("/carrier")
+//    public String carrier() {
+//        return "<html><head><title>Carrier Page</title></head>" +
+//                "<body><h1>This is Carrier page</h1>" +
+//                "<p>Welcome to our website! This is the About page. Feel free to explore our site, and don’t forget to visit the About Us page!</p>" +
+//                "<a href='/deployment'>Home Page</a></body></html>";
+//    }
 }
