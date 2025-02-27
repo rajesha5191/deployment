@@ -15,8 +15,8 @@ public class HomeController {
                 "<body><h1>This is Home Page</h1>" +
                 "<p>Welcome to our website! This is the home page.</p>" +
                 "<p>Feel free to explore our site, and don’t forget to visit the About Us page!</p>" +
-                "<a href='/deployment/about'>About Us</a></body></html>"+
-                "<a href='/deployment/carrier'>Carrier</a></body></html>"+
+                "<a href='/deployment/about'>About Us</a>&nbsp;&nbsp;&nbsp;" +
+                "<a href='/deployment/carrier'>Carrier</a>&nbsp;&nbsp;&nbsp;" +
                 "<a href='/deployment/users'>Users</a></body></html>";
     }
     @GetMapping("/about")
